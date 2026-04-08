@@ -79,3 +79,21 @@ Reduces manual configuration and simplifies workflows through automation and sta
 ### Install Dune
 ```bash
 opam install dune
+Initialize Environment
+eval $(opam config env)
+▶️ Usage
+Build the project
+dune build
+Run executable (if applicable)
+dune exec ./your_executable
+Clean build artifacts
+dune clean
+🔍 Example Command
+
+Build a specific package:
+
+dune build --only-packages <package-name> @install
+
+👩‍💻 Author
+
+Vidhi Hemal Doshi
