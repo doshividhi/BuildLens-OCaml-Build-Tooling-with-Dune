@@ -1,3 +1,7 @@
+
+
+---
+
 <div align="center">
 
 # BuildLens: OCaml Build Tooling with Dune
@@ -10,90 +14,97 @@
 
 ## 📌 Overview
 
-**BuildLens** is an OCaml project focused on designing and managing structured build workflows using the **Dune build system** and **opam package manager**. It demonstrates how to configure, build, and manage OCaml projects efficiently with reproducibility and scalability in mind.
-
-This project highlights practical usage of Dune for handling project metadata, dependency management, and automated build processes.
+BuildLens is an OCaml project focused on building and managing structured workflows using the Dune build system and opam package manager. It demonstrates how to configure projects, manage dependencies, and automate builds efficiently with reproducibility and scalability.
 
 ---
 
 ## 🚀 Features
 
-- ⚙️ **Dune-based build system** using S-expression configurations  
-- 📦 **Dependency management with opam**  
-- 🧱 **Multi-package project structure support**  
-- 🔁 **Reproducible builds across environments**  
-- ⚡ **Efficient and parallel build execution**  
-- 💻 **Command-line build automation workflows**
+* Dune-based build configuration using S-expressions
+* Dependency management with opam
+* Multi-package project support
+* Reproducible builds across environments
+* Parallel and efficient build execution
+* Command-line build automation
 
 ---
 
 ## 🏗️ Project Structure
+
 BuildLens-OCaml-Build-Tooling-with-Dune/
 │── dune-project
 │── src/
-│ ├── dune
-│ └── *.ml
+│   ├── dune
+│   └── *.ml
 │── _build/
+│── README.md
 
 ---
 
 ## ⚙️ How It Works
 
-Dune reads project configuration from `dune` files written in a simple **S-expression syntax**. These files define:
-
-- Build rules  
-- Libraries and executables  
-- Dependencies  
-- Compilation targets  
-
-Dune then automatically handles compilation, linking, and environment setup, making OCaml development faster and more reliable.
+Dune reads configuration from dune files written in S-expression syntax. These define build rules, dependencies, and targets. Dune then automatically handles compilation, linking, and environment setup, simplifying development workflows.
 
 ---
 
 ## 💪 Strengths
 
-### 🔹 Composable Architecture
-Dune allows multiple OCaml projects to be combined into a single build system, enabling scalable and modular development.
+Composable Architecture – Combine multiple OCaml projects into one unified build system.
 
-### 🔹 Multi-Package Support
-Supports repositories with multiple packages and ensures correct dependency resolution across them.
+Multi-Package Support – Manage multiple packages with correct dependency resolution.
 
-### 🔹 Reproducibility
-Ensures consistent builds across different environments using defined configurations and dependency locking.
+Reproducibility – Ensure consistent builds across environments.
 
-### 🔹 Performance
-Optimized for fast builds with minimal overhead and support for parallel execution.
+Performance – Fast builds with parallel execution and minimal overhead.
 
-### 🔹 Developer Productivity
-Reduces manual configuration and simplifies workflows through automation and standardization.
+Developer Productivity – Reduce manual setup through automation and standardization.
 
 ---
 
 ## 🛠️ Installation & Setup
 
-### Prerequisites
-- OCaml (>= 4.02.3)
-- opam (OCaml package manager)
-- Dune
+Prerequisites:
 
-### Install Dune
-```bash
+* OCaml (>= 4.02.3)
+* opam
+* Dune
+
+Install Dune:
 opam install dune
-Initialize Environment
+
+Initialize environment:
 eval $(opam config env)
-▶️ Usage
-Build the project
+
+---
+
+## ▶️ Usage
+
+Build project:
 dune build
-Run executable (if applicable)
+
+Run executable:
 dune exec ./your_executable
-Clean build artifacts
+
+Clean build:
 dune clean
-🔍 Example Command
 
-Build a specific package:
+---
 
-dune build --only-packages <package-name> @install
 
-👩‍💻 Author
+
+---
+
+## 👩‍💻 Author
 
 Vidhi Hemal Doshi
+[https://github.com/doshividhi](https://github.com/doshividhi)
+
+---
+
+## 📄 License
+
+This project is for educational purposes.
+
+
+
+If you want next step, I can make this look like a **top-tier GitHub project (with badges + visuals)**.
