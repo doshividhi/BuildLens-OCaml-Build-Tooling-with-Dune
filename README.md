@@ -37,7 +37,7 @@ BuildLens-OCaml-Build-Tooling-with-Dune/
 │   ├── dune
 │   └── *.ml
 │── _build/
-│── README.md
+
 
 ---
 
@@ -107,4 +107,3 @@ This project is for educational purposes.
 
 
 
-If you want next step, I can make this look like a **top-tier GitHub project (with badges + visuals)**.
